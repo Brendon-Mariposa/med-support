@@ -1,0 +1,21 @@
+/** Search form */
+.search-form {
+  @apply;
+}
+
+.search-form label {
+  @apply;
+  font-weight: normal;
+}
+
+.search-form .search-field {
+  @apply;
+}
+
+.search-form .search-submit {
+  @apply;
+
+  &:hover {
+    @apply;
+  }
+}
