@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/medsupportinc/public_html/wp-content/themes/med-support
+    - /bin/cp -R images $DEPLOYPATH
