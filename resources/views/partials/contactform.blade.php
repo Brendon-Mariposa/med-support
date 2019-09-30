@@ -1,4 +1,4 @@
-echo do_shortcode( '[contact-form-7 id="109" title="Site Contact"]' );
+<?php echo do_shortcode( '[contact-form-7 id="109" title="Site Contact"]' ); ?>
 
 <!-- <form class="flex flex-wrap pt-8">
     <div class="w-full lg:w-1/3 pb-6 lg:pr-5">
