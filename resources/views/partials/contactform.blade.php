@@ -1,29 +1,6 @@
-<?php if ( is_page( 'Billing/Revenue Cycle Review') ): 
-        $billingSelect = 'selected="selected"'; 
-    elseif ( is_page( 'Provider Enrollment') ):
-        $providerSelect = 'selected="selected"';
-    elseif ( is_page( 'Managed Care & Insurance Contracting Assistance') ):
-        $managedcareSelect = 'selected="selected"'; 
-    elseif ( is_page( 'Practice Statistical & Financial Budget Development') ):
-        $practicestatSelect = 'selected="selected"';
-    elseif ( is_page( 'Managed Care &amp; Insurance Contracting Assistance') ):
-        $managedcareSelect = 'selected="selected"';
-    elseif ( is_page( 'E&M Leveling Review') ):
-        $emSelect = 'selected="selected"';
-    elseif ( is_page( 'Coding and Chart Review') ):
-        $chartreviewSelect = 'selected="selected"';
-    elseif ( is_page( 'Business Office Assessment') ):
-        $officeSelect = 'selected="selected"';
-    endif;
-?>
+echo do_shortcode( '[contact-form-7 id="109" title="Site Contact"]' );
 
-<?php if ( is_page( 'Special Projects') ): 
-    $hideSelect = 'hidden'; 
-    $specialSelect = 'selected="selected"';
-    endif; 
-?>
-
-<form class="flex flex-wrap pt-8">
+<!-- <form class="flex flex-wrap pt-8">
     <div class="w-full lg:w-1/3 pb-6 lg:pr-5">
         <label class="w-full font-oswald text-xl">Full Name</label>
         <input type="text" class="w-full font-open p-2 border-2 border-color-85c879" required>
@@ -64,4 +41,4 @@
         <textarea class="w-full h-32 font-open p-2 border-2 border-color-85c879"></textarea>
     </div>
     <input type="submit" value="submit" class="w-full lg:w-auto font-open uppercase border-4 text-base border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer mt-4 p-4 lg:p-2 hero-button">
-</form>
+</form> -->
