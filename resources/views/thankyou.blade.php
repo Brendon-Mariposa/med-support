@@ -15,8 +15,8 @@
         <a href="tel:9122250938" class="w-5/6 font-oswald text-2xl md:text-4xl text-white font-bold mx-auto text-center uppercase">Thank You!</a>
     </div>
 
-    <div class="flex flex-wrap w-5/6 lg:w-2/3 mx-auto pt-24 pb-32">
-    <h2 class="font-open text-3xl md:text-5xl font-thin pb-8 leading-none italic">
+    <div class="flex flex-wrap w-5/6 lg:w-2/3 mx-auto pt-24 pb-16">
+    <h2 class="font-open text-3xl md:text-5xl font-thin mx-auto pb-8 leading-none italic">
     
     <?php
       global $wp_query;
@@ -26,12 +26,14 @@
     ?>
 
     </h2>
-    <p class="font-open font-thin text-xl"><?php the_content() ?></p>
+    <p class="font-open font-thin text-xl mx-auto"><?php the_content() ?></p>
     </div>
 
+<div class="mx-auto text-center pb-12">
     <a href="/" class="w-full sm:w-auto border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer p-4 text-center hero-button">
         <span class="font-open uppercase">Return to our Home Page</span>
     </a>
+</div>
 
   @endwhile
 @endsection
