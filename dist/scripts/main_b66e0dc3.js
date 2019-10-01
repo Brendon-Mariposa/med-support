@@ -152,6 +152,10 @@ __WEBPACK_IMPORTED_MODULE_1_aos___default.a.init({
   once: true,
 
 });
+
+document.addEventListener( 'wpcf7mailsent', function() {
+    location = 'http://www.medsupportinc.com/thank-you/';
+}, false );
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),

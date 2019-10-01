@@ -59,3 +59,7 @@ AOS.init({
   once: true,
 
 });
+
+document.addEventListener( 'wpcf7mailsent', function() {
+    location = 'http://www.medsupportinc.com/thank-you/';
+}, false );
