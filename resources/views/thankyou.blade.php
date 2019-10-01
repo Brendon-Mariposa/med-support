@@ -29,7 +29,7 @@
     <p class="font-open font-thin text-xl mx-auto"><?php the_content() ?></p>
     </div>
 
-<div class="mx-auto text-center pb-12">
+<div class="mx-auto text-center pb-32">
     <a href="/" class="w-full sm:w-auto border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer p-4 text-center hero-button">
         <span class="font-open uppercase">Return to our Home Page</span>
     </a>
