@@ -21,6 +21,7 @@
   font-weight: 500;
 }
 .hero-button {
+  color: #262626;
   transition: .2s;
 }
 .service-square {
