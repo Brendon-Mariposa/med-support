@@ -39,7 +39,7 @@ footer .widget p {
   <div class="sm:flex flex-wrap text-white px-10">
     <div class="sm:flex flex-wrap w-full mx-auto">
     <?php if ( is_front_page() ): 
-      echo do_shortcode( '[contact-form-7 id="109" title="Site Contact" html_id="contact-form-1234" html_class="flex flex-wrap pt-8"]' );
+      echo do_shortcode( '[contact-form-7 id="160" title="Homepage Contact" html_id="contact-form-1234" html_class="flex flex-wrap pt-8"]' );
       ; endif; 
     ?>
       @php dynamic_sidebar('sidebar-footer') @endphp
