@@ -92,7 +92,7 @@
   <div class="flex flex-wrap items-center">
     <a class="brand" href="{{ home_url('/') }}">
     <div class="w-1/2 md:w-1/3 z-50">
-      <div class="w-40 mx-auto p-3 <?php if ( ! is_front_page() ): echo 'hidden'; endif; ?>">{!! the_custom_logo() !!}</div>
+      <div class="w-56 mx-auto p-3 <?php if ( ! is_front_page() ): echo 'hidden'; endif; ?>">{!! the_custom_logo() !!}</div>
       <div class="w-40 mx-auto pt-6 header-search <?php if ( is_front_page() ): echo 'hidden'; endif; ?>">
         @php get_search_form() @endphp
       </div>
