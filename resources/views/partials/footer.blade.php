@@ -36,7 +36,7 @@ footer .widget p {
   <div class="flex flex-wrap">
     <a href="tel:9122250938" class="w-full font-oswald text-2xl md:text-3xl text-white font-bold text-center uppercase py-8 md:py-2">Call Us - (912) 225-0938</a>
   </div>
-  <div class="sm:flex flex-wrap text-white px-10">
+  <div class="sm:flex flex-wrap text-white px-5 lg:px-32">
     <div class="sm:flex flex-wrap w-full mx-auto">
     <?php if ( is_front_page() ): 
       echo do_shortcode( '[contact-form-7 id="160" title="Homepage Contact" html_id="contact-form-1234" html_class="flex flex-wrap pt-8 homepage-form"]' );
