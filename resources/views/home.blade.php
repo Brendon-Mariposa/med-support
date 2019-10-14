@@ -37,7 +37,7 @@
         <h6 class="font-oswald text-sm sm:text-lg lg:text-xl pb-3 uppercase" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-sine">a practice support partner</h6>
         <h1 class="font-open text-3xl sm:text-4xl lg:text-7xl font-thin pb-16 leading-none" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">With 70<sup class="text-color-85c879 font-bold">+</sup> years of experience</h1>
         <a href="/contact/" class="w-full sm:w-auto border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer p-4 text-center hero-button">
-          <span class="font-open uppercase">Work with us</span>
+          <span class="font-open uppercase">Get Started</span>
         </a>
       </div>
     </div>

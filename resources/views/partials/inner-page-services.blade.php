@@ -1,27 +1,13 @@
 <div id="services" class="flex flex-wrap">
-    <div class="w-full bg-gray-200 py-8 text-center">
+    <div class="w-full bg-gray-200 pt-8 pb-10 text-center">
 
-        <h2 class="font-oswald text-4xl font-bold uppercase pb-1">
-        
-        <?php if ( is_page( 'Special Projects') ): 
-            echo 'Our Services'; 
-            else: 
-            echo 'Other Services'; 
-            endif; 
-        ?>
-        
-        </h2>
+        <h2 class="font-oswald text-4xl font-bold uppercase pb-1">Other Services</h2>
 
-        <p class="font-open text-2xl font-thin">
-        
-        <?php if ( is_page( 'Special Projects') ): 
-            echo 'Do you need help with one of these tasks? Click which one you need assistance with.'; 
-            else: 
-            echo 'Need help with something else? Try one of these.'; 
-            endif; 
-        ?>
-        
-        </p>
+        <p class="font-open text-2xl font-thin pb-5">Need help with something else? Try one of these.</p>
+
+        <a href="/contact/" class="w-full sm:w-auto border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer p-2 text-center hero-button">
+          <span class="font-open uppercase">Ask a question</span>
+        </a>
         
     </div>
     <a href="/billing-revenue-cycle-review/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 border-color-85c879 hover:border-4 service-square billingrevenue-cycle-review-square">
