@@ -18,12 +18,17 @@
 
     <div class="flex flex-wrap -mt-24 z-0 about-page-hero" data-aos="fade" data-aos-duration="1000">
       <div class="w-2/3 pt-48 pb-32 lg:pt-56 lg:pb-32 mx-auto">
-        <h1 class="font-open text-4xl lg:text-7xl text-white font-thin pb-5 leading-none text-center" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-sine">About Med Support</h1>
+        <h1 class="font-open text-4xl lg:text-7xl text-white font-thin pb-5 leading-none text-center" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-sine">About MedSupport, Inc.</h1>
       </div>
     </div>
 
-    <div class="flex flex-wrap bg-color-85c879 py-8">
-        <a href="tel:9122250938" class="w-5/6 font-oswald text-2xl md:text-4xl text-white font-bold mx-auto text-center uppercase">Call for more information - (912) 225-0938</a>
+    <div class="flex flex-wrap items-center bg-color-85c879 py-8 md:py-0">
+        <a class="brand" href="{{ home_url('/') }}">
+          <div class="w-1/5 z-50 mx-auto">
+            <div class="mx-auto p-3">{!! the_custom_logo() !!}</div>
+          </div>
+        </a>
+        <a href="tel:9122250938" class="w-2/3 font-oswald text-2xl md:text-4xl text-white font-bold mx-auto text-center uppercase">Call for more information - (912) 225-0938</a>
     </div>
 
     <div class="flex flex-wrap w-5/6 lg:w-2/3 mx-auto pt-24 pb-32">

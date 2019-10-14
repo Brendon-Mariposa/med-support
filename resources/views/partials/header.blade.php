@@ -39,17 +39,23 @@
 .managed-care-insurance-contracting-assistance-square {
   background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1569427040/Med%20Support/insurance-contracting.jpg");
 }
-.practice-statistical-financial-budget-development-square {
-  background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1569425725/Med%20Support/financial-budget-management-med.jpg");
+.healthcare-analytics-special-projects-square {
+  background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1569427720/Med%20Support/coding-chart-review.jpg");
 }
 .em-leveling-review-square {
   background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1569427581/Med%20Support/em-leveling.jpg");
 }
 .coding-and-chart-review-square {
-  background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1569427720/Med%20Support/coding-chart-review.jpg");
+  background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1571081256/Med%20Support/chart-review.jpg");
 }
 .business-office-assessment-square {
   background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1569427836/Med%20Support/office-assessment.jpg");
+}
+.denial-review-and-management-square {
+  background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1571079370/Med%20Support/denial-review-and-management.jpg");
+}
+.insurance-and-accounts-receivable-recovery-square {
+  background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1571079603/Med%20Support/insurance-and-accounts-receivable-recovery.jpg");
 }
 .quote-home-page {
   background-image: url("https://res.cloudinary.com/mariposa/image/upload/o_40/v1569354021/Med%20Support/mission-statement.png");
@@ -71,6 +77,9 @@
   background-color: #edf2f7;
   padding: 10px;
 }
+.header-search .search-submit {
+  display: none;
+}
 @media(max-width:900px){
 
 }
@@ -83,10 +92,13 @@
   <div class="flex flex-wrap items-center">
     <a class="brand" href="{{ home_url('/') }}">
     <div class="w-1/2 md:w-1/3 z-50">
-      <div class="w-40 mx-auto p-3">{!! the_custom_logo() !!}</div>
+      <div class="w-40 mx-auto p-3 <?php if ( ! is_front_page() ): echo 'hidden'; endif; ?>">{!! the_custom_logo() !!}</div>
+      <div class="w-40 mx-auto pt-6 header-search <?php if ( is_front_page() ): echo 'hidden'; endif; ?>">
+        @php get_search_form() @endphp
+      </div>
     </div>
     </a>
-    <nav class="hidden md:flex flex-wrap w-full font-open font-thin ml-auto md:w-1/2 z-50 top-menu">
+    <nav class="hidden md:flex flex-wrap w-full font-open font-thin ml-auto md:w-1/2 z-50 py-8 top-menu">
       @if (has_nav_menu('primary_navigation'))
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'flex flex-wrap xl:w-1/2 mx-auto', 'menu_class' => 'flex flex-wrap']) !!}
       @endif
