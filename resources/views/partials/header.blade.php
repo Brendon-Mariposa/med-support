@@ -91,14 +91,11 @@
 
 <header class="bg-transparent banner">
   <div class="flex flex-wrap items-center">
-    <a class="brand" href="{{ home_url('/') }}">
     <div class="w-1/2 md:w-1/3 z-50">
-      <div class="w-48 mx-auto p-3 <?php if ( ! is_front_page() ): echo 'hidden'; endif; ?>">{!! the_custom_logo() !!}</div>
-      <div class="w-40 mx-auto pt-6 header-search <?php if ( is_front_page() ): echo 'hidden'; endif; ?>">
+      <div class="w-40 mx-auto pt-6 header-search">
         @php get_search_form() @endphp
       </div>
     </div>
-    </a>
     <nav class="hidden md:flex flex-wrap w-full font-open font-thin ml-auto md:w-1/2 z-50 py-8 top-menu">
       @if (has_nav_menu('primary_navigation'))
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'flex flex-wrap xl:w-1/2 mx-auto', 'menu_class' => 'flex flex-wrap']) !!}

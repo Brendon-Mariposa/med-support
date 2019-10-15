@@ -32,13 +32,36 @@
 @section('content')
   @while(have_posts()) @php the_post() @endphp
 
-    <div class="flex flex-wrap -mt-24 z-0 home-page-hero" data-aos="fade-left" data-aos-duration="1500">
-      <div class="flex flex-wrap w-3/4 sm:w-2/3 pt-48 pb-32 lg:pt-64 lg:pb-64 mx-auto">
-        <h6 class="font-oswald text-sm sm:text-lg lg:text-xl pb-3 uppercase" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-sine">a practice support partner</h6>
-        <h1 class="font-open text-3xl sm:text-4xl lg:text-7xl font-thin pb-16 leading-none" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">With 70<sup class="text-color-85c879 font-bold">+</sup> years of experience</h1>
-        <a href="/contact/" class="w-full sm:w-auto border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer p-4 text-center hero-button">
-          <span class="font-open uppercase">Get Started</span>
-        </a>
+    <div class="flex flex-wrap -mt-56 z-0 py-80 home-page-hero" data-aos="fade-left" data-aos-duration="1500">
+      <div class="flex flex-wrap w-1/3 mx-auto text-right">
+        <div class="w-4/5 mx-auto" data-aos="fade-left" data-aos-duration="2000">
+          <h6 class="w-full font-oswald text-sm pb-3 uppercase">experience</h6>
+          <h1 class="w-full font-open text-xl font-thin pb-16 leading-none lowercase">To Recognize the Impact</h1>
+          <h6 class="w-full font-oswald text-base pb-3 uppercase">Expertise</h6>
+          <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To Identify the issues</h1>
+          <h6 class="w-full font-oswald text-lg pb-3 uppercase">Conceptual Skills</h6>
+          <h1 class="w-full font-open text-3xl font-thin pb-16 leading-none">To formulate the best solution</h1>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/3 mx-auto">
+      <a class="w-full brand" href="{{ home_url('/') }}">
+        <div class="w-full mx-auto z-50">
+          <div class="w-80 p-3 opacity-50 hover:opacity-100 mx-auto">{!! the_custom_logo() !!}</div>
+        </div>
+      </a>
+    </div>
+      <div class="flex flex-wrap w-1/3 mx-auto">
+        <div class="w-4/5 mx-auto" data-aos="fade-right" data-aos-duration="2000">
+          <h6 class="w-full font-oswald text-sm pb-3 uppercase">People Skills</h6>
+          <h1 class="w-full font-open text-xl font-thin pb-16 leading-none">To gain acceptance</h1>
+          <h6 class="w-full font-oswald text-base pb-3 uppercase">Principles</h6>
+          <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To do what is right</h1>
+          <h6 class="w-full font-oswald text-lg pb-3 uppercase">Resources</h6>
+          <h1 class="w-full font-open text-3xl font-thin pb-16 leading-none">To implement the plan</h1>
+          <!-- <a href="/contact/" class="w-full sm:w-auto border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer p-4 text-center hero-button">
+            <span class="font-open uppercase">Get Started</span>
+          </a> -->
+        </div>
       </div>
     </div>
 
