@@ -29,11 +29,11 @@
 
     <div class="flex flex-wrap items-center bg-color-85c879 py-8 md:py-0">
         <a class="brand" href="{{ home_url('/') }}">
-          <div class="w-1/5 z-50 mx-auto">
+          <div class="hidden md:flex w-1/5 z-50 mx-auto">
             <div class="w-48 mx-auto">{!! the_custom_logo() !!}</div>
           </div>
         </a>
-        <a href="tel:9122250938" class="w-2/3 font-oswald text-2xl md:text-4xl text-white font-bold mx-auto text-center uppercase">Call for more information - (912) 225-0938</a>
+        <a href="tel:9122250938" class="w-2/3 font-oswald text-2xl md:text-4xl text-white font-bold mx-auto text-center uppercase leading-none">Call for more information - (912) 225-0938</a>
     </div>
 
     <div class="flex flex-wrap w-5/6 lg:w-2/3 mx-auto py-32">

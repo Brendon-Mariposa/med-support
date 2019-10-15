@@ -17,7 +17,7 @@
 .mobile-menu-list a {
   font-size: 40px;
   font-family: 'Open Sans', 'sans-serif';
-  color: white;
+  color: #85c879;
   font-weight: 500;
 }
 .hero-button {
@@ -91,11 +91,14 @@
 
 <header class="bg-transparent banner">
   <div class="flex flex-wrap items-center">
+    <a class="brand" href="{{ home_url('/') }}">
     <div class="w-1/2 md:w-1/3 z-50">
-      <div class="w-40 mx-auto pt-6 header-search">
+      <div class="md:hidden w-48 mx-auto p-3">{!! the_custom_logo() !!}</div>
+      <div class="hidden md:flex w-40 mx-auto pt-6 header-search">
         @php get_search_form() @endphp
       </div>
     </div>
+    </a>
     <nav class="hidden md:flex flex-wrap w-full font-open font-thin ml-auto md:w-1/2 z-50 py-8 top-menu">
       @if (has_nav_menu('primary_navigation'))
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'flex flex-wrap xl:w-1/2 mx-auto', 'menu_class' => 'flex flex-wrap']) !!}
@@ -111,14 +114,14 @@
   <?php if ( function_exists('yoast_breadcrumb') ) 
 {yoast_breadcrumb('<p id="breadcrumbs" class="bg-color-d8d8d8 text-color-888888 font-thin uppercase py-5 px-24">','</p>');} ?>
 
-  <div class="bg-color-2a2a2a bg-color-85c879 h-screen overflow-scroll mobile-menu">
+  <div class="bg-white h-screen overflow-scroll mobile-menu">
     <div class="flex flex-wrap items-center">
       <a class="brand" href="{{ home_url('/') }}">
         <div class="w-1/2 md:w-1/3">
           <div class="w-40 mx-auto p-3">{!! the_custom_logo() !!}</div>
         </div>
       </a>
-      <a id="close-mobile-menu" class="md:hidden w-1/2 text-white text-right pr-8 sm:pr-16 close-menu">
+      <a id="close-mobile-menu" class="md:hidden w-1/2 text-color-85c879 text-right pr-8 sm:pr-16 close-menu">
         <div>
           <i class="text-3xl fas fa-times"></i>
         </div>
