@@ -33,49 +33,46 @@
   @while(have_posts()) @php the_post() @endphp
 
     <div class="flex flex-wrap -mt-56 z-0 pt-72 pb-24 md:py-80 home-page-hero" data-aos="fade-left" data-aos-duration="1500">
-      <div class="hidden md:flex flex-wrap w-full md:w-1/3 mx-auto text-right">
-        <div class="w-4/5 mx-auto" data-aos="fade-left" data-aos-duration="2000">
-          <h6 class="w-full font-oswald text-lg md:text-sm pb-3 uppercase">experience</h6>
-          <h1 class="w-full font-open text-3xl md:text-xl font-thin pb-16 leading-none lowercase">To Recognize the Impact</h1>
-          <h6 class="w-full font-oswald text-base pb-3 uppercase">Expertise</h6>
-          <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To Identify the issues</h1>
-          <h6 class="w-full font-oswald text-lg pb-3 uppercase">Conceptual Skills</h6>
-          <h1 class="w-full font-open text-3xl font-thin pb-16 leading-none">To formulate the best solution</h1>
-        </div>
-      </div>
-      <div class="hidden md:flex flex-wrap w-full md:w-1/3 mx-auto pb-8">
+      <div class="hidden md:flex flex-wrap w-full md:w-full mx-auto pb-8">
         <a class="w-full brand" href="{{ home_url('/') }}">
           <div class="w-full mx-auto z-50">
             <div class="w-80 p-3 md:opacity-50 hover:opacity-100 mx-auto">{!! the_custom_logo() !!}</div>
           </div>
         </a>
-        <a href="/contact/" class="w-5/6 h-16 border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer mx-auto p-4 text-center hero-button">
-          <span class="font-open uppercase">Get Started</span>
-        </a>
       </div>
-      <div class="flex md:hidden flex-wrap w-full md:w-1/3 mx-auto text-center">
-          <div class="w-4/5 mx-auto" data-aos="fade-left" data-aos-duration="2000">
-            <h6 class="w-full font-oswald text-lg md:text-sm pb-3 uppercase">experience</h6>
-            <h1 class="w-full font-open text-3xl md:text-xl font-thin pb-16 leading-none lowercase">To Recognize the Impact</h1>
-            <h6 class="w-full font-oswald text-lg md:text-base pb-3 uppercase">Expertise</h6>
-            <h1 class="w-full font-open text-3xl md:text-2xl font-thin pb-16 leading-none">To Identify the issues</h1>
-            <h6 class="w-full font-oswald text-lg md:text-lg pb-3 uppercase">Conceptual Skills</h6>
-            <h1 class="w-full font-open text-3xl font-thin pb-16 leading-none">To formulate the best solution</h1>
-          </div>
-      </div>
-      <div class="flex flex-wrap w-full md:w-1/3 mx-auto text-center md:text-left">
-        <div class="w-4/5 mx-auto" data-aos="fade-right" data-aos-duration="2000">
-          <h6 class="w-full font-oswald text-lg md:text-sm pb-3 uppercase">People Skills</h6>
-          <h1 class="w-full font-open text-3xl md:text-xl font-thin pb-16 leading-none">To gain acceptance</h1>
-          <h6 class="w-full font-oswald text-lg md:text-base pb-3 uppercase">Principles</h6>
-          <h1 class="w-full font-open text-3xl md:text-2xl font-thin pb-16 leading-none">To do what is right</h1>
-          <h6 class="w-full font-oswald text-lg md:text-lg pb-3 uppercase">Resources</h6>
-          <h1 class="w-full font-open text-3xl font-thin pb-16 leading-none">To implement the plan</h1>
-          <!-- <a href="/contact/" class="w-full sm:w-auto border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer p-4 text-center hero-button">
-            <span class="font-open uppercase">Get Started</span>
-          </a> -->
+      <div class="hidden md:flex flex-wrap w-full md:w-1/2 mx-auto text-right">
+        <div class="w-4/5 mx-auto" data-aos="fade-left" data-aos-duration="2000">
+          <h6 class="w-full font-oswald text-base pb-3 uppercase">experience</h6>
+          <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none lowercase">To Recognize the Impact</h1>
+          <h6 class="w-full font-oswald text-base pb-3 uppercase">Expertise</h6>
+          <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To Identify the issues</h1>
+          <h6 class="w-full font-oswald text-base pb-3 uppercase">Conceptual Skills</h6>
+          <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To formulate the best solution</h1>
         </div>
       </div>
+      <div class="flex md:hidden flex-wrap w-full md:w-1/2 mx-auto text-center">
+          <div class="w-4/5 mx-auto" data-aos="fade-left" data-aos-duration="2000">
+            <h6 class="w-full font-oswald text-base pb-3 uppercase">experience</h6>
+            <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none lowercase">To Recognize the Impact</h1>
+            <h6 class="w-full font-oswald text-base pb-3 uppercase">Expertise</h6>
+            <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To Identify the issues</h1>
+            <h6 class="w-full font-oswald text-base pb-3 uppercase">Conceptual Skills</h6>
+            <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To formulate the best solution</h1>
+          </div>
+      </div>
+      <div class="flex flex-wrap w-full md:w-1/2 mx-auto text-center md:text-left">
+        <div class="w-4/5 mx-auto" data-aos="fade-right" data-aos-duration="2000">
+          <h6 class="w-full font-oswald text-base pb-3 uppercase">People Skills</h6>
+          <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To gain acceptance</h1>
+          <h6 class="w-full font-oswald text-base pb-3 uppercase">Principles</h6>
+          <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To do what is right</h1>
+          <h6 class="w-full font-oswald text-base pb-3 uppercase">Resources</h6>
+          <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To implement the plan</h1>
+        </div>
+      </div>
+      <a href="/contact/" class="w-auto h-16 border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer mx-auto py-4 px-12 text-center hero-button">
+        <span class="font-open uppercase">Get Started</span>
+      </a>
     </div>
 
     @include('partials.services')
