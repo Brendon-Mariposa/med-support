@@ -35,6 +35,7 @@ footer .widget p {
 <footer class="bg-color-85c879 pt-5 content-info">
   <div class="flex flex-wrap">
     <a href="tel:9122250938" class="w-full font-oswald text-2xl md:text-3xl text-white font-bold text-center uppercase py-8 md:py-2">Call Us - (912) 225-0938</a>
+    <a href="tel:8447478870" class="w-full font-oswald text-lg text-white text-center uppercase py-8 md:py-2">(844) 747-8870</a>
   </div>
   <div class="sm:flex flex-wrap text-white px-5 lg:px-32">
     <div class="sm:flex flex-wrap w-full mx-auto">
