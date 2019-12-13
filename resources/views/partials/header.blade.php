@@ -81,6 +81,9 @@
 .header-search .search-submit {
   display: none;
 }
+#comments {
+  display: none;
+}
 @media(max-width:900px){
 
 }
