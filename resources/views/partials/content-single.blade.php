@@ -1,9 +1,9 @@
 <article @php post_class() @endphp>
   <header class="flex flex-wrap bg-color-d8d8d8">
-    <h1 class="w-11/12 border-t-2 text-4xl mx-auto pt-5 pb-56 entry-title">{!! get_the_title() !!}</h1>
+    <h1 class="w-11/12 font-open font-bold border-t-2 text-3xl mx-auto pt-8 pb-12 entry-title">{!! get_the_title() !!}</h1>
     @include('partials/entry-meta')
   </header>
-  <div class="-mt-48 entry-content">
+  <div class="font-open text-base w-11/12 mx-auto entry-content">
     @php the_content() @endphp
   </div>
   <footer>
