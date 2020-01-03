@@ -36,7 +36,7 @@
       <div class="hidden md:flex flex-wrap w-full md:w-full mx-auto pb-8">
         <a class="w-full brand" href="{{ home_url('/') }}">
           <div class="w-full mx-auto z-50">
-            <div class="w-80 p-3 md:opacity-50 hover:opacity-100 mx-auto">{!! the_custom_logo() !!}</div>
+            <div class="w-1/4 p-3 mx-auto">{!! the_custom_logo() !!}</div>
           </div>
         </a>
       </div>

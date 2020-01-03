@@ -53,7 +53,7 @@
   background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1569427836/Med%20Support/office-assessment.jpg");
 }
 .denial-review-and-management-square {
-  background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1571079370/Med%20Support/denial-review-and-management.jpg");
+  background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1578077889/Med%20Support/mayor-917149_1280.jpg");
 }
 .insurance-and-accounts-receivable-recovery-square {
   background-image: url("https://res.cloudinary.com/mariposa/image/upload/w_500,b_black,o_80/v1571079603/Med%20Support/insurance-and-accounts-receivable-recovery.jpg");
