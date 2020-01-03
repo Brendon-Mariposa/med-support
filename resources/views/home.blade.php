@@ -4,7 +4,7 @@
 
 <style>
   .home-page-hero {
-    background-image: url("https://res.cloudinary.com/mariposa/image/upload/o_40/v1569357992/Med%20Support/hero.jpg");
+    background-image: url("https://res.cloudinary.com/mariposa/image/upload/o_40,a_90/v1569357992/Med%20Support/hero.jpg");
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
