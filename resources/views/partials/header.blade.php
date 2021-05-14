@@ -87,10 +87,6 @@
   background-color: #0070C0;
   transition: .3s;
 }
-.blue-bk:hover {
-  background-color: #033d67;
-  transition: .3s;
-}
 .blue-text {
   color: #0070C0 !important;
 }
