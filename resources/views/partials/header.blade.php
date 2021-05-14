@@ -6,19 +6,19 @@
   margin: 0 5px 0 5px;
   transition: .2s;
   font-family: 'Oswald', 'sans-serif';
-  font-weight: 700;
+  font-weight: 500;
   border-radius: 10px;
 }
 .top-menu a:hover {
   border-bottom-width: 2px;
-  border-color: #85c879;
+  border-color: #0070C0;
   transition: .2s;
 }
 .mobile-menu-list a {
   font-size: 40px;
   font-family: 'Oswald', 'sans-serif';
-  color: #85c879;
-  font-weight: 700;
+  color: #0070C0;
+  font-weight: 500;
 }
 .service-square {
   transition: .2s;
