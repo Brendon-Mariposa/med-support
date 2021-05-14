@@ -24,21 +24,9 @@
     <div class="py-24"></div>
     <h2 class="absolute bottom-0 left-0 font-oswald text-3xl font-bold text-white p-4 text-left">Managed Care &amp; Insurance Contracting Assistance</h2>
     </a>
-    <a href="/healthcare-analytics/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 service-square healthcare-analytics-special-projects-square">
+    <a href="/healthcare-analytics/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 coding-and-chart-review-square">
     <div class="py-24"></div>
     <h2 class="absolute bottom-0 left-0 font-oswald text-3xl font-bold text-white p-4 text-left">Healthcare Analytics</h2>
-    </a>
-    <a href="/em-leveling-review/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 service-square em-leveling-review-square">
-    <div class="py-24"></div>
-    <h2 class="absolute bottom-0 left-0 font-oswald text-3xl font-bold text-white p-4 text-left">Evaluation &amp; Management Leveling Review</h2>
-    </a>
-    <a href="/coding-and-chart-review/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 service-square coding-and-chart-review-square">
-    <div class="py-24"></div>
-    <h2 class="absolute bottom-0 left-0 font-oswald text-3xl font-bold text-white p-4 text-left">Coding and Chart Review</h2>
-    </a>
-    <a href="/business-office-assessment/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 service-square business-office-assessment-square">
-    <div class="py-24"></div>
-    <h2 class="absolute bottom-0 left-0 font-oswald text-3xl font-bold text-white p-4 text-left">Business Office Assessment</h2>
     </a>
     <a href="/denial-review-and-management/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 service-square denial-review-and-management-square">
     <div class="py-24"></div>
@@ -46,9 +34,9 @@
     </a>
     <a href="/insurance-and-accounts-receivable-recovery/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 service-square insurance-and-accounts-receivable-recovery-square">
     <div class="py-24"></div>
-    <h2 class="absolute bottom-0 left-0 font-oswald text-3xl font-bold text-white p-4 text-left">Insurance and Accounts Recievable Recovery</h2>
+    <h2 class="absolute bottom-0 left-0 font-oswald text-3xl font-bold text-white p-4 text-left">Insurance and Accounts Receivable Recovery</h2>
     </a>
-    <a href="/special-projects/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 service-square healthcare-analytics-special-projects-square">
+    <a href="/special-projects/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 em-leveling-review-square">
     <div class="py-24"></div>
     <h2 class="absolute bottom-0 left-0 font-oswald text-3xl font-bold text-white p-4 text-left">Special Projects</h2>
     </a>
