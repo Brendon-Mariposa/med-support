@@ -25,8 +25,12 @@
 
   .blue-bk {
     background-color: #0070C0;
+    transition: .3s;
   }
-
+  .blue-bk:hover {
+    background-color: #033d67;
+    transition: .3s;
+  }
   .blue-text {
     color: #0070C0;
   }
@@ -84,7 +88,7 @@
           <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To implement the plan</h1>
         </div>
       </div>
-      <a href="/contact/" class="w-auto h-16 border-4 text-lg md:text-xl blue-border blue-bk hover:text-white hover:cursor-pointer mx-auto py-4 px-12 text-center hero-button">
+      <a href="/contact/" class="w-auto h-16 border-4 text-lg md:text-xl blue-border blue-bk text-white hover:cursor-pointer mx-auto py-4 px-12 text-center hero-button">
         <span class="font-open uppercase">Get Started</span>
       </a>
     </div>
