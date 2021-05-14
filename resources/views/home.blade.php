@@ -36,7 +36,7 @@
 @section('content')
   @while(have_posts()) @php the_post() @endphp
 
-    <div class="flex flex-wrap -mt-56 z-0 pt-72 pb-24 home-page-hero" data-aos="fade-left" data-aos-duration="1500">
+    <div class="flex flex-wrap z-0 pt-24 pb-24 home-page-hero" data-aos="fade-left" data-aos-duration="1500">
       <div class="hidden md:flex flex-wrap w-full md:w-1/3 mx-auto text-right">
         <div class="w-4/5 mx-auto" data-aos="fade-left" data-aos-duration="2000">
           <h6 class="w-full font-oswald text-base pb-3 uppercase">experience</h6>
