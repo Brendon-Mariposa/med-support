@@ -9,7 +9,11 @@
           <span class="font-open uppercase">Ask a question</span>
         </a> 
         </div>
-
+        <style>
+        .call-us {
+          display: none;
+        }
+        </style>
         ';
         endif;
     ?>
