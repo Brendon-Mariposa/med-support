@@ -5,7 +5,7 @@
   padding: 5px 15px 5px 15px;
   margin: 0 5px 0 5px;
   transition: .2s;
-  font-family: 'Open Sans', 'sans-serif';
+  font-family: 'Oswald', 'sans-serif';
   font-weight: 200;
   border-radius: 10px;
 }
@@ -16,7 +16,7 @@
 }
 .mobile-menu-list a {
   font-size: 40px;
-  font-family: 'Open Sans', 'sans-serif';
+  font-family: 'Oswald', 'sans-serif';
   color: #85c879;
   font-weight: 500;
 }
