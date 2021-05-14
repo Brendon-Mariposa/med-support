@@ -42,7 +42,7 @@ footer .widget p {
           <div class="w-full font-oswald text-2xl md:text-3xl text-white font-bold text-center uppercase py-8 md:py-2">Send Us an Inquiry</div>
         </div>
 
-        ',
+        ';
     else:
       echo '
       <div class="flex flex-wrap">
