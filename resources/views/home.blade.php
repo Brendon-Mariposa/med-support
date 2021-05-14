@@ -43,13 +43,6 @@
   @while(have_posts()) @php the_post() @endphp
 
     <div class="flex flex-wrap -mt-56 z-0 pt-72 pb-24 md:py-80 home-page-hero" data-aos="fade-left" data-aos-duration="1500">
-      <div class="hidden md:flex flex-wrap w-full md:w-full mx-auto pb-8">
-        <a class="w-full brand" href="{{ home_url('/') }}">
-          <div class="w-full mx-auto z-50">
-            <div class="w-1/4 p-3 mx-auto">{!! the_custom_logo() !!}</div>
-          </div>
-        </a>
-      </div>
       <div class="hidden md:flex flex-wrap w-full md:w-1/2 mx-auto text-right">
         <div class="w-4/5 mx-auto" data-aos="fade-left" data-aos-duration="2000">
           <h6 class="w-full font-oswald text-base pb-3 uppercase">experience</h6>
@@ -60,7 +53,7 @@
           <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To formulate the best solution</h1>
         </div>
       </div>
-      <div class="flex md:hidden flex-wrap w-full md:w-1/2 mx-auto text-center">
+      <div class="flex md:hidden flex-wrap w-full md:w-1/3 mx-auto text-center">
           <div class="w-4/5 mx-auto" data-aos="fade-left" data-aos-duration="2000">
             <h6 class="w-full font-oswald text-base pb-3 uppercase">experience</h6>
             <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none lowercase">To Recognize the Impact</h1>
@@ -69,6 +62,13 @@
             <h6 class="w-full font-oswald text-base pb-3 uppercase">Conceptual Skills</h6>
             <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To formulate the best solution</h1>
           </div>
+      </div>
+      <div class="hidden md:flex flex-wrap w-full md:w-1/3 mx-auto pb-8">
+        <a class="w-full brand" href="{{ home_url('/') }}">
+          <div class="w-full mx-auto z-50">
+            <div class="w-1/4 p-3 mx-auto">{!! the_custom_logo() !!}</div>
+          </div>
+        </a>
       </div>
       <div class="flex flex-wrap w-full md:w-1/2 mx-auto text-center md:text-left">
         <div class="w-4/5 mx-auto" data-aos="fade-right" data-aos-duration="2000">
