@@ -66,11 +66,11 @@
       <div class="hidden md:flex flex-wrap w-full md:w-1/3 mx-auto pb-8">
         <a class="w-full brand" href="{{ home_url('/') }}">
           <div class="w-full mx-auto z-50">
-            <div class="w-1/4 p-3 mx-auto">{!! the_custom_logo() !!}</div>
+            <div class="w-full p-3 mx-auto">{!! the_custom_logo() !!}</div>
           </div>
         </a>
       </div>
-      <div class="flex flex-wrap w-full md:w-1/2 mx-auto text-center md:text-left">
+      <div class="flex flex-wrap w-full md:w-1/3 mx-auto text-center md:text-left">
         <div class="w-4/5 mx-auto" data-aos="fade-right" data-aos-duration="2000">
           <h6 class="w-full font-oswald text-base pb-3 uppercase">People Skills</h6>
           <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To gain acceptance</h1>
