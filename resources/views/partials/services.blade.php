@@ -5,7 +5,7 @@
         <div class="w-full bg-gray-200 pt-8 pb-10 text-center">
             <h2 class="font-oswald text-4xl font-bold uppercase pb-1">We can help!</h2> 
             <p class="font-open text-2xl font-thin pb-5">Let us know what you need assistance with</p> 
-            <a href="/contact/" class="w-full sm:w-auto border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer p-2 text-center hero-button">
+            <a href="/contact/" class="w-full sm:w-auto border-4 text-lg md:text-xl blue-border blue-bk text-white hover:cursor-pointer mx-auto py-4 px-12 text-center hero-button">
           <span class="font-open uppercase">Ask a question</span>
         </a> 
         </div>
