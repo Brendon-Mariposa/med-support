@@ -10,6 +10,7 @@
     background-size: 10px;
   }
   .hero-button {
+    color: white !important;
     transition: .2s;
   }
   .service-square {
@@ -32,7 +33,7 @@
     transition: .3s;
   }
   .blue-text {
-    color: #0070C0;
+    color: #0070C0 !important;
   }
   .brand-hero .custom-logo {
     margin-right: auto;
