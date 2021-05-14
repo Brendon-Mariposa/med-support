@@ -19,6 +19,17 @@
     cursor: pointer;
     transition: .2s;
   }
+  .blue-border {
+    border-color: #0070C0;
+  }
+
+  .blue-bk {
+    background-color: #0070C0;
+  }
+
+  .blue-text {
+    color: #0070C0;
+  }
   /* .quote-home-page {
     background-image: url("https://res.cloudinary.com/mariposa/image/upload/o_40/v1569354021/Med%20Support/mission-statement.png");
     background-size: 100px;
