@@ -19,9 +19,8 @@
     }
     </style>
 
-    <div class="flex flex-wrap -mt-24 z-0 <?php echo sanitize_title_with_dashes(get_the_title(get_the_ID())); ?>-hero" data-aos="fade" data-aos-duration="1000">
+    <div class="flex flex-wrap -mt-20 z-0 <?php echo sanitize_title_with_dashes(get_the_title(get_the_ID())); ?>-hero" data-aos="fade" data-aos-duration="1000">
       <div class="w-5/6 lg:w-2/3 pt-48 pb-32 lg:pt-48 lg:pb-32 text-white mx-auto">
-        <h6 class="font-oswald text-sm md:text-lg lg:text-xl pb-3 uppercase" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">a practice support partner</h6>
         <h1 class="font-open text-3xl md:text-4xl lg:text-7xl font-thin pb-5 leading-none" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-sine"><?php the_title() ?></h1>
         <p class="font-open font-thin text-base lg:text-xl" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-sine"><?php the_content() ?></p>
       </div>
