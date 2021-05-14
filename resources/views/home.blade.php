@@ -30,6 +30,10 @@
   .blue-text {
     color: #0070C0;
   }
+  .brand-hero .custom-logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
   /* .quote-home-page {
     background-image: url("https://res.cloudinary.com/mariposa/image/upload/o_40/v1569354021/Med%20Support/mission-statement.png");
     background-size: 100px;
@@ -63,7 +67,7 @@
             <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To formulate the best solution</h1>
           </div>
       </div>
-      <div class="hidden md:flex flex-wrap w-full md:w-1/3 mx-auto pb-8">
+      <div class="hidden md:flex flex-wrap w-full md:w-1/3 mx-auto pb-8 brand-hero">
         <a class="w-full brand" href="{{ home_url('/') }}">
           <div class="w-full mx-auto z-50">
             <div class="w-5/6 p-3 mx-auto text-center">{!! the_custom_logo() !!}</div>
