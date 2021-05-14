@@ -20,21 +20,6 @@
     cursor: pointer;
     transition: .2s;
   }
-  .blue-border {
-    border-color: #0070C0;
-  }
-
-  .blue-bk {
-    background-color: #0070C0;
-    transition: .3s;
-  }
-  .blue-bk:hover {
-    background-color: #033d67;
-    transition: .3s;
-  }
-  .blue-text {
-    color: #0070C0 !important;
-  }
   .brand-hero .custom-logo {
     margin-right: auto;
     margin-left: auto;

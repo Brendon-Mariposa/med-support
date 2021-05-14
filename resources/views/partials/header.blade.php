@@ -20,10 +20,6 @@
   color: #85c879;
   font-weight: 500;
 }
-.hero-button {
-  color: #262626;
-  transition: .2s;
-}
 .service-square {
   transition: .2s;
 }
@@ -83,6 +79,20 @@
 }
 #comments {
   display: none;
+}
+.blue-border {
+    border-color: #0070C0;
+}
+.blue-bk {
+  background-color: #0070C0;
+  transition: .3s;
+}
+.blue-bk:hover {
+  background-color: #033d67;
+  transition: .3s;
+}
+.blue-text {
+  color: #0070C0 !important;
 }
 @media(max-width:900px){
 
