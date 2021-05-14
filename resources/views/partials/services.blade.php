@@ -13,11 +13,11 @@
         ';
         endif;
     ?>
-    <a href="/billing-revenue-cycle-review/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 border-color-85c879 hover:border-4 service-square billingrevenue-cycle-review-square">
+    <a href="/billing-revenue-cycle-review/" class="relative w-full md:w-1/3 bg-gray-200 text-center py-5 bg-cover bg-center border-0 service-square billingrevenue-cycle-review-square">
     <div class="py-24"></div>
     <h2 class="absolute bottom-0 left-0 font-oswald text-3xl font-bold text-white p-4 text-left">Billing/Revenue Cycle Review</h2>
     </a>
-    <a href="/provider-enrollment/" class="relative w-full md:w-1/3 bg-gray-300 text-center py-5 bg-cover bg-center border-0 border-color-85c879 hover:border-4 service-square provider-enrollment-square">
+    <a href="/provider-enrollment/" class="relative w-full md:w-1/3 bg-gray-300 text-center py-5 bg-cover bg-center border-0 service-square provider-enrollment-square">
     <div class="py-24"></div>
     <h2 class="absolute bottom-0 left-0 font-oswald text-3xl font-bold text-white p-4 text-left">Provider Enrollment</h2>
     </a>
