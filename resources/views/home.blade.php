@@ -74,7 +74,7 @@
           <h1 class="w-full font-open text-2xl font-thin pb-16 leading-none">To implement the plan</h1>
         </div>
       </div>
-      <a href="/contact/" class="w-auto h-16 font-open uppercase border-4 text-base mt-4 p-4 hero-button">
+      <a href="/contact/" class="w-auto h-16 border-4 text-lg md:text-xl blue-border blue-bk text-white hover:cursor-pointer mx-auto py-4 px-12 text-center hero-button">
         <span class="font-open uppercase">Get Started</span>
       </a>
     </div>
