@@ -5,7 +5,7 @@
 
         <p class="font-open text-2xl font-thin pb-5">Need help with something else? Try one of these.</p>
 
-        <a href="/contact/" class="w-full sm:w-auto border-4 text-lg md:text-xl border-color-85c879 hover:bg-color-85c879 hover:text-white hover:cursor-pointer p-2 text-center hero-button">
+        <a href="/contact/" class="w-full sm:w-auto border-4 text-lg md:text-xl blue-border blue-bk text-white hover:cursor-pointer mx-auto p-2 text-center hero-button">
           <span class="font-open uppercase">Ask a question</span>
         </a>
         
