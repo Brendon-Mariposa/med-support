@@ -17,7 +17,7 @@
 
     <div class="flex flex-wrap -mt-24 z-0 about-page-hero" data-aos="fade" data-aos-duration="1000">
       <div class="w-2/3 pt-48 pb-32 lg:pt-56 lg:pb-32 mx-auto">
-        <h1 class="font-open text-4xl lg:text-7xl text-white font-thin pb-5 leading-none text-center" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-sine">About MedSupport, Inc.</h1>
+        <h1 class="font-open text-4xl lg:text-7xl font-thin pb-5 leading-none text-center" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-sine">About MedSupport, Inc.</h1>
       </div>
     </div>
 
@@ -27,7 +27,7 @@
             <div class="w-48 mx-auto">{!! the_custom_logo() !!}</div>
           </div>
         </a>
-        <a href="tel:9122250938" class="w-2/3 font-oswald text-2xl md:text-4xl text-white font-bold mx-auto text-center uppercase leading-none">Call for more information - (912) 225-0938</a>
+        <a href="tel:8447478870" class="w-2/3 font-oswald text-2xl md:text-4xl text-white font-bold mx-auto text-center uppercase leading-none">Call for more information - (844) 747-8870</a>
     </div>
 
     <div class="flex flex-wrap w-5/6 lg:w-2/3 mx-auto pt-24 pb-32">
