@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <div class="flex flex-wrap items-center bg-color-85c879 py-8 md:py-0">
+    <div class="flex flex-wrap items-center blue-bk py-8 md:py-0">
         <a class="brand" href="{{ home_url('/') }}">
           <div class="hidden md:flex w-1/5 z-50 mx-auto">
             <div class="w-48 mx-auto">{!! the_custom_logo() !!}</div>
