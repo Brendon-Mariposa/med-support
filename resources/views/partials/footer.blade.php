@@ -33,11 +33,25 @@ footer .widget p {
 </style>
 
 <footer class="blue-bk pt-5 content-info">
-  <div class="flex flex-wrap">
-    <a href="tel:8447478870" class="w-full font-oswald text-2xl md:text-3xl text-white font-bold text-center uppercase py-8 md:py-2">Call Us - (844) 747-8870</a>
-    <div class="w-full font-oswald text-2xl md:text-3xl text-white text-center uppercase">OR</div>
-    <div class="w-full font-oswald text-2xl md:text-3xl text-white font-bold text-center uppercase py-8 md:py-2">Send Us an Inquiry</div>
-  </div>
+    <?php if ( is_page( array( 'About', 'Contact' ) ) ):
+        echo '
+
+        <div class="flex flex-wrap">
+          <a href="tel:8447478870" class="w-full font-oswald text-2xl md:text-3xl text-white font-bold text-center uppercase py-8 md:py-2">Call Us - (844) 747-8870</a>
+          <div class="w-full font-oswald text-2xl md:text-3xl text-white text-center uppercase">OR</div>
+          <div class="w-full font-oswald text-2xl md:text-3xl text-white font-bold text-center uppercase py-8 md:py-2">Send Us an Inquiry</div>
+        </div>
+
+        ',
+    else:
+      echo '
+      <div class="flex flex-wrap">
+        <a href="tel:8447478870" class="w-full font-oswald text-2xl md:text-3xl text-white font-bold text-center uppercase py-8 md:py-2">Call Us - (844) 747-8870</a>
+      </div>
+      
+      '
+        endif;
+    ?>
   <div class="sm:flex flex-wrap text-white px-5 lg:px-32">
     <div class="sm:flex flex-wrap w-full mx-auto">
     <?php if ( is_front_page() ): 
