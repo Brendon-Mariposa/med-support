@@ -104,8 +104,7 @@
 }
 </style>
 
-<header class="bg-transparent banner">
-  <div class="w-full text-center py-2 topbar"><p>Your Practice Support Partner</p></div>
+<header class="bg-transparent banner topbar">
   <div class="flex flex-wrap items-center">
     <a class="brand" href="{{ home_url('/') }}">
     <div class="w-1/2 md:w-1/3 z-50">
@@ -150,3 +149,4 @@
     </div>
   </div>
 </header>
+<div class="w-full text-center py-2"><p>Your Practice Support Partner</p></div>
