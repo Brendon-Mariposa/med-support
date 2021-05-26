@@ -100,6 +100,8 @@
 }
 .search-form {
   width: 300px;
+  margin: 0px;
+  padding-top: 10px;
 }
 @media(max-width:900px){
 
