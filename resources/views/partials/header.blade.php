@@ -94,8 +94,9 @@
   background-color: #0070C0;
 }
 .below-bar {
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Oswald', 'sans-serif';
+  text-transform: uppercase;
 }
 .header-search {
   
