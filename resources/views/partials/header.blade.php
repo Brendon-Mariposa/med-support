@@ -98,8 +98,8 @@
   font-family: 'Oswald', 'sans-serif';
   text-transform: uppercase;
 }
-.header-search {
-  width: 800px;
+.search-form {
+  width: 300px;
 }
 @media(max-width:900px){
 
@@ -114,7 +114,7 @@
     <a class="brand" href="{{ home_url('/') }}">
     <div class="w-1/2 md:w-1/3 z-50">
       <div class="md:hidden w-48 mx-auto p-3">{!! the_custom_logo() !!}</div>
-      <div class="hidden md:flex mx-auto pt-6 header-search">
+      <div class="hidden md:flex w-80 mx-auto pt-6 header-search">
         @php get_search_form() @endphp
       </div>
     </div>
