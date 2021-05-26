@@ -92,9 +92,14 @@
 }
 .topbar {
   background-color: #0070C0;
-  font-size: 18px;
-  font-family: 'Open Sans', 'sans-serif';
-  color: white;
+}
+.below-bar {
+  background-color: #0070C0;
+  font-size: 14px;
+  font-family: 'Oswald', 'sans-serif';
+}
+.header-search {
+  
 }
 @media(max-width:900px){
 
@@ -149,4 +154,4 @@
     </div>
   </div>
 </header>
-<div class="w-full text-center py-2"><p>Your Practice Support Partner</p></div>
+<div class="w-full text-center py-2 below-bar"><p>Your Practice Support Partner</p></div>
