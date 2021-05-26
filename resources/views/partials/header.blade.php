@@ -94,6 +94,7 @@
   background-color: #0070C0;
 }
 .below-bar {
+  background-color: white;
   font-size: 16px;
   font-family: 'Oswald', 'sans-serif';
   text-transform: uppercase;

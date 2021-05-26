@@ -35,7 +35,7 @@
     </div>
 
     <div class="flex flex-wrap w-5/6 lg:w-2/3 mx-auto py-32">
-        <h2 class="font-open text-4xl font-thin pb-5 leading-none"><?php the_title() ?> <sup class="hidden lg:inline blue-bk text-white text-lg font-bold p-1 rounded">Learn More</sup></h2>
+        <h2 class="font-open text-4xl font-thin pb-5 leading-none"><?php the_title() ?></h2>
         @include('partials.contactform')
     </div>
 
