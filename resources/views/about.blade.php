@@ -17,7 +17,7 @@
 
     <div class="flex flex-wrap -mt-24 z-0 about-page-hero" data-aos="fade" data-aos-duration="1000">
       <div class="w-2/3 pt-48 pb-32 lg:pt-56 lg:pb-32 mx-auto">
-        <h1 class="font-open text-4xl lg:text-7xl font-thin pb-5 leading-none text-center" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-sine">About MedSupport, Inc.</h1>
+        <h1 class="font-open text-4xl lg:text-7xl font-thin pb-5 leading-none text-center" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-sine">About <br />MedSupport, Inc.</h1>
       </div>
     </div>
 
